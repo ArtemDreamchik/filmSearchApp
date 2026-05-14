@@ -8,7 +8,7 @@ const closeMoviePage = document.querySelector('.js-back__btn');
 
 async function getDataFromRequest(filmName) {
 
-    let response = await fetch(`http://www.omdbapi.com/?apikey=12fc66ba&t=${filmName}`);
+    let response = await fetch(`https://www.omdbapi.com/?apikey=12fc66ba&t=${filmName}`);
     let filmInfo = await response.json();
 
     return filmInfo;
