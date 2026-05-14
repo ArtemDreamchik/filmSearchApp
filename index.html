@@ -1,0 +1,47 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="search-block">
+            <div class="input-wrapper">
+                <input 
+                type="text"
+                class="js-input input"
+                placeholder="Название фильма">
+            </div>
+            <button class="js-btn btn">Найти</button>
+        </div>
+        <div class="movie-list-block">
+            <ul class="js-movie-list movie-list">
+            </ul>
+        </div>
+        <div class="js-movie-page movie-page">
+            <p class="js-back__btn back__btn"><- Назад к поиску</p>
+            <div class="inf-wrapper">
+                <img src="" alt="" class="js-movie__poster movie__poster">
+                <div class="desc-wrapper">
+                    <h2 class="js-movie__title movie__title"></h2>
+                    <p class="movie__description">Год: <span class="js-year"></span></p>
+                    <p class="movie__description">Рейтинг: <span class="js-rate"></span></p>
+                    <p class="movie__description">Дата выхода: <span class="js-date"></span></p>
+                    <p class="movie__description">Продолжительность: <span class="js-runtime"></span></p>
+                    <p class="movie__description">Жанр: <span class="js-genre"></span></p>
+                    <p class="movie__description">Режиссер: <span class="js-director"></span></p>
+                    <p class="movie__description">Сценарий: <span class="js-writer"></span></p>
+                    <p class="movie__description">Актеры: <span class="js-actors"></span></p>
+                </div>
+            </div>
+            <p class="js-movie__description movie__description long-desc">After witnessing his parents' death, Bruce learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
